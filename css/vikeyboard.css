@@ -1,0 +1,45 @@
+.keyInput {
+    position: absolute;
+    background-color: white;
+    display: none;
+    border-radius: 3px;
+    border: 1px solid grey;
+    z-index: 9998;
+}
+
+.letterInput {
+    float: left;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    border: 1px solid grey;
+    z-index: 9999;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.letterInput:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.keyInputClose {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    z-index: 9999;
+    background-color: white;
+}
+
+.keyInputClose:hover {
+    background-color: grey;
+    cursor: pointer;
+}

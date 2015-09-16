@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ViKeyboard Example</title>
+    <link rel="stylesheet" href="../css/vikeyboard.css" type="text/css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/vikeyboard.js"></script>
+    <script type="text/javascript" src="../js/vikeylanguages.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1>ViKeyboard Example</h1>
+
+        <p class="lead">
+            This is an Example how the ViKeyboard works.
+        </p>
+
+        <p>
+            Easy to use.
+            <code>
+                initCharInput('yourInputFieldId', serbian);
+            </code>
+        </p>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <form>
+                <div class="form-group">
+                    <label for="exampleinput1">
+                        Basic Example:
+                        <code>
+                            initCharInput('exampleinput1', serbian);
+                        </code>
+                    </label>
+                    <input id="exampleinput1" class="form-control" type="text"/>
+                </div>
+                <div class="form-group">
+                    <label for="exampleinput2">
+                        Small Example:
+                        <code>
+                            initCharInput('exampleinput2', serbian);
+                        </code>
+                    </label>
+                    <input id="exampleinput2" class="form-control" type="text" style="width: 100px;"/>
+                </div>
+                <div class="form-group">
+                    <label for="exampletextarea1">
+                        TexArea Example:
+                        <code>
+                            initCharInput('exampletextarea1', serbian);
+                        </code>
+                    </label>
+                    <textarea id="exampletextarea1" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="exampleinput1">
+                        Custom Letter Example:
+                        <code>
+                            initCharInput('exampleinput3', ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', '...']);
+                        </code>
+                    </label>
+                    <input id="exampleinput3" class="form-control" type="text"/>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+
+    </div>
+</div>
+
+<script>
+    initCharInput('exampleinput1', serbian);
+    initCharInput('exampleinput2', serbian);
+    initCharInput('exampletextarea1', serbian);
+    initCharInput('exampleinput3', ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', '...']);
+</script>
+</body>
+</html>
