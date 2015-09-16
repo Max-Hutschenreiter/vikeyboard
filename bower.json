@@ -1,0 +1,29 @@
+{
+  "name": "ViKeyboard",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Max-Hutschenreiter/vikeyboard",
+  "authors": [
+    "Max Hutschenreiter <max.hutschenreiter@gmail.com> (http://hutschenreiter.biz)"
+  ],
+  "description": "A very basic little virtual Keyboard you can attach to your input fields",
+  "keywords": [
+    "virtual",
+    "keyboard"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7.0"
+  },
+  "main": [
+    "js/vikeyboard.js",
+    "js/bikeylanguages.js",
+    "css/vikeyboard.css"
+  ]
+}
